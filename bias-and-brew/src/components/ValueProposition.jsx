@@ -6,17 +6,17 @@ const ValueProposition = () => {
         {
             icon: <ShieldCheck size={32} className="text-sapphire" />,
             title: "Bias-Free Intelligence",
-            description: "Rigorous auditing ensures your AI systems serve all citizens fairly and ethically, meeting strict government standards for equity."
+            description: "Rigorous auditing ensures your AI systems serve all citizens fairly and ethically, meeting strict standards for equity."
         },
         {
             icon: <Zap size={32} className="text-tangerine" />,
             title: "Rapid Deployment",
-            description: "Prototype-first methodology delivers working solutions in weeks, not years, allowing for iterative feedback and faster value realization."
+            description: "My prototype-first methodology delivers working solutions in weeks, not years, allowing for iterative feedback and faster value realization."
         },
         {
             icon: <Lock size={32} className="text-ruby" />,
             title: "Compliant by Design",
-            description: "Built with government regulations, security standards, and transparency requirements in mind from the very first line of code."
+            description: "I build with government regulations, security standards, and transparency requirements in mind from the very first line of code."
         }
     ];
 

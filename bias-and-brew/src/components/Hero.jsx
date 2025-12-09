@@ -40,7 +40,7 @@ const Hero = () => {
                         transition={{ duration: 0.6 }}
                         className="mb-6 inline-block px-4 py-1.5 rounded-full bg-sapphire/10 text-sapphire font-medium text-sm border border-sapphire/20"
                     >
-                        Ethical AI Solutions for Government
+                        Ethical AI Consultancy by Konstantin Pokaluhin
                     </motion.div>
 
                     <motion.h1
@@ -59,7 +59,7 @@ const Hero = () => {
                         transition={{ duration: 0.6, delay: 0.2 }}
                         className="text-xl text-charcoal/80 mb-10 max-w-2xl mx-auto leading-relaxed"
                     >
-                        We help government agencies build trustworthy AI systems through rigorous bias auditing and intelligent automation. From data integrity to autonomous agents, we deliver solutions that serve the public interest.
+                        I help government agencies build trustworthy AI systems through rigorous bias auditing and intelligent automation. From data integrity to autonomous agents, I deliver solutions that serve the public interest.
                     </motion.p>
 
                     <motion.div
@@ -72,14 +72,14 @@ const Hero = () => {
                             onClick={scrollToContact}
                             className="w-full sm:w-auto px-8 py-4 bg-sapphire text-white rounded-lg font-semibold hover:bg-blue-700 transition-all duration-300 shadow-lg shadow-sapphire/20 hover:shadow-xl hover:scale-105 flex items-center justify-center gap-2 group"
                         >
-                            Schedule a Consultation
+                            Work with Me
                             <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                         </button>
                         <button
                             onClick={scrollToServices}
                             className="w-full sm:w-auto px-8 py-4 bg-white text-charcoal border border-slate-200 rounded-lg font-semibold hover:bg-slate-50 hover:border-sapphire/30 transition-all duration-300 flex items-center justify-center"
                         >
-                            Explore Our Services
+                            Explore My Expertise
                         </button>
                     </motion.div>
 

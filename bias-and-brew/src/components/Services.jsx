@@ -1,14 +1,14 @@
 import { motion } from 'framer-motion';
-import { Search, Database, Scale, BarChart3, Bot, LayoutTemplate, Network, FileCheck } from 'lucide-react';
+import { Search, Database, Scale, BarChart3, Bot, LayoutTemplate, Network, FileCheck, Zap } from 'lucide-react';
 
 const Services = () => {
     return (
         <section id="services" className="py-24 bg-slate-50">
             <div className="container mx-auto px-4 md:px-6">
                 <div className="text-center mb-16 max-w-3xl mx-auto">
-                    <h2 className="text-3xl md:text-4xl font-bold text-charcoal mb-4">Our Services</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-charcoal mb-4">My Expertise</h2>
                     <p className="text-xl text-charcoal/70">
-                        Two pillars of expertise: Foundational integrity and intelligent automation
+                        Two pillars of focus: Foundational integrity and intelligent automation
                     </p>
                 </div>
 
@@ -25,7 +25,7 @@ const Services = () => {
                         <div className="bg-sapphire/5 p-8 border-b border-sapphire/10">
                             <div className="flex items-center gap-3 mb-2">
                                 <Search className="text-sapphire" size={28} />
-                                <h3 className="text-2xl font-bold text-charcoal">The "Bias" Pillar</h3>
+                                <h3 className="text-2xl font-bold text-charcoal">I Ensure Integrity</h3>
                             </div>
                             <p className="text-sapphire font-medium mb-2">Auditing & Foundational Data Services</p>
                             <p className="text-charcoal/70">Ensuring quality, fairness, and reliability of your data and models.</p>
@@ -39,7 +39,7 @@ const Services = () => {
                                 </div>
                                 <div>
                                     <h4 className="font-bold text-charcoal mb-1">The Data Filter</h4>
-                                    <p className="text-sm text-charcoal/70">Deep-dive analysis of data integrity, cleansing, and preparation. We identify data quality issues before they become model problems.</p>
+                                    <p className="text-sm text-charcoal/70">Deep-dive analysis of data integrity, cleansing, and preparation. I identify data quality issues before they become model problems.</p>
                                 </div>
                             </div>
 
@@ -49,7 +49,7 @@ const Services = () => {
                                 </div>
                                 <div>
                                     <h4 className="font-bold text-charcoal mb-1">Bias Mitigation Audit</h4>
-                                    <p className="text-sm text-charcoal/70">Identify, measure, and correct algorithmic bias in existing ML/AI models. Comprehensive reporting aligned with government fairness standards.</p>
+                                    <p className="text-sm text-charcoal/70">I identify, measure, and correct algorithmic bias in existing ML/AI models. Comprehensive reporting aligned with government fairness standards.</p>
                                 </div>
                             </div>
 
@@ -87,7 +87,7 @@ const Services = () => {
                         <div className="bg-tangerine/5 p-8 border-b border-tangerine/10">
                             <div className="flex items-center gap-3 mb-2">
                                 <Bot className="text-tangerine" size={28} />
-                                <h3 className="text-2xl font-bold text-charcoal">The "Brew" Pillar</h3>
+                                <h3 className="text-2xl font-bold text-charcoal">I Build Automation</h3>
                             </div>
                             <p className="text-tangerine font-medium mb-2">Agentic AI & Systems Development</p>
                             <p className="text-charcoal/70">Building and deploying automated, action-oriented AI agents.</p>

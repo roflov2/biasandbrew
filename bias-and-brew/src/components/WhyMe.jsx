@@ -1,18 +1,18 @@
 import { CheckCircle2 } from 'lucide-react';
 
-const WhyUs = () => {
+const WhyMe = () => {
     const reasons = [
         {
-            title: "Government-First Mindset",
-            description: "We understand the unique challenges of public sector AI: transparency requirements, diverse stakeholder needs, and the imperative to serve all citizens fairly."
+            title: "Public Sector Focus",
+            description: "I understand the unique challenges of public sector AI: transparency requirements, diverse stakeholder needs, and the imperative to serve all citizens fairly."
         },
         {
             title: "Speed Meets Rigor",
-            description: "Our prototype-first approach delivers rapid results without cutting corners on testing, documentation, or compliance."
+            description: "My prototype-first approach delivers rapid results without cutting corners on testing, documentation, or compliance."
         },
         {
             title: "From Audit to Automation",
-            description: "Unlike consultancies that only identify problems or only build solutions, we do both—ensuring your AI systems are built on solid, unbiased foundations."
+            description: "Unlike consultants who only identify problems or only build solutions, I do both—ensuring your AI systems are built on solid, unbiased foundations."
         },
         {
             title: "Technical Excellence",
@@ -26,10 +26,10 @@ const WhyUs = () => {
                 <div className="grid lg:grid-cols-2 gap-16 items-center">
 
                     <div>
-                        <h2 className="text-3xl md:text-4xl font-bold mb-6">Why Work With Us</h2>
+                        <h2 className="text-3xl md:text-4xl font-bold mb-6">Why Work With Me</h2>
                         <div className="w-16 h-1 bg-ruby mb-8 rounded-full"></div>
                         <p className="text-lg text-slate-300 mb-8 leading-relaxed">
-                            We bring a specialized focus to government AI challenges, combining ethical rigor with technical agility to deliver systems that are safe, fair, and effective.
+                            I bring a specialized focus to government AI challenges, combining ethical rigor with technical agility to deliver systems that are safe, fair, and effective.
                         </p>
                         <div className="p-6 bg-white/5 rounded-xl border border-white/10 backdrop-blur-sm">
                             <p className="text-slate-300 italic">
@@ -56,4 +56,4 @@ const WhyUs = () => {
     );
 };
 
-export default WhyUs;
+export default WhyMe;

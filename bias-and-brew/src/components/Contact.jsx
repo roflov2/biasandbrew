@@ -61,12 +61,12 @@ const Contact = () => {
                     <div>
                         <h2 className="text-3xl md:text-4xl font-bold text-charcoal mb-6">Let's Talk</h2>
                         <p className="text-xl text-charcoal/70 mb-8">
-                            Ready to build AI systems you can trust? Start with a conversation.
+                            Ready to build AI systems you can trust? Let's have a chat.
                         </p>
 
                         <div className="space-y-6">
                             <div className="bg-slate-50 p-6 rounded-xl border border-slate-100">
-                                <h4 className="font-bold text-charcoal mb-2">Email Directly</h4>
+                                <h4 className="font-bold text-charcoal mb-2">Email Me</h4>
                                 <a href="mailto:kosta@biasandbrew.dev" className="text-sapphire hover:underline text-lg">kosta@biasandbrew.dev</a>
                             </div>
                             <div className="bg-slate-50 p-6 rounded-xl border border-slate-100">
@@ -83,7 +83,7 @@ const Contact = () => {
                                     <CheckCircle size={32} />
                                 </div>
                                 <h3 className="text-2xl font-bold text-charcoal mb-2">Message Sent!</h3>
-                                <p className="text-charcoal/70 mb-8">Thank you for reaching out. We'll get back to you shortly.</p>
+                                <p className="text-charcoal/70 mb-8">Thank you for reaching out. I'll get back to you shortly.</p>
                                 <button onClick={() => setStatus('idle')} className="text-sapphire font-medium hover:underline">Send another message</button>
                             </div>
                         ) : (
@@ -139,7 +139,7 @@ const Contact = () => {
                                         required
                                         rows="4"
                                         className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-sapphire focus:ring-2 focus:ring-sapphire/20 outline-none transition-all resize-none"
-                                        placeholder="How can we help you?"
+                                        placeholder="How can I help you?"
                                     ></textarea>
                                     {status === 'error' && formData.message.length > 0 && formData.message.length < 20 && (
                                         <p className="text-ruby text-xs mt-1">Message must be at least 20 characters.</p>
@@ -149,7 +149,7 @@ const Contact = () => {
                                 {status === 'error' && (
                                     <div className="flex items-center gap-2 text-ruby text-sm bg-ruby/5 p-3 rounded-lg">
                                         <AlertCircle size={16} />
-                                        <span>Something went wrong. Please try again or email us directly.</span>
+                                        <span>Something went wrong. Please try again or email me directly.</span>
                                     </div>
                                 )}
 
@@ -159,7 +159,7 @@ const Contact = () => {
                                     className="w-full py-4 bg-sapphire text-white rounded-lg font-semibold hover:bg-blue-700 transition-all duration-300 shadow-md hover:shadow-lg disabled:opacity-70 disabled:cursor-not-allowed flex items-center justify-center gap-2"
                                 >
                                     {status === 'submitting' ? 'Sending...' : 'Send Message'}
-                                    {!status === 'submitting' && <Send size={18} />}
+                                    {status !== 'submitting' && <Send size={18} />}
                                 </button>
                             </form>
                         )}
