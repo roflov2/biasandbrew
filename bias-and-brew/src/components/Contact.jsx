@@ -33,7 +33,7 @@ const Contact = () => {
                     Accept: "application/json",
                 },
                 body: JSON.stringify({
-                    access_key: "YOUR_ACCESS_KEY_HERE", // User needs to replace this
+                    access_key: "cbc572cf-09a2-4a39-8040-a8f9159cff3f",
                     ...formData,
                     subject: "New Contact from biasandbrew.dev",
                     from_name: "Bias and Brew Website"
