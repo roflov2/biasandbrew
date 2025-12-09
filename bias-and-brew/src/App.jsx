@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import ValueProposition from './components/ValueProposition';
 import Services from './components/Services';
+import Portfolio from './components/Portfolio';
 import Process from './components/Process';
 import WhyMe from './components/WhyMe';
 import Contact from './components/Contact';
@@ -17,6 +18,7 @@ function App() {
         <About />
         <ValueProposition />
         <Services />
+        <Portfolio />
         <Process />
         <WhyMe />
         <Contact />
