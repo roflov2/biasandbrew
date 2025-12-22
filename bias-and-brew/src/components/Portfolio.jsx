@@ -41,7 +41,7 @@ const Portfolio = () => {
                         {/* Preview Content */}
                         <div className="p-8 space-y-6">
                             <p className="text-slate-300 leading-relaxed">
-                                A high-performance network intelligence tool designed to visualize and analyze complex relationships in large-scale datasets. Built with WebGL for smooth rendering of thousands of nodes.
+                                A high-performance network intelligence tool designed to visualise and analyse complex relationships in large-scale datasets. Built with WebGL for smooth rendering of thousands of nodes.
                             </p>
 
                             <ul className="grid md:grid-cols-2 gap-4 text-sm">

@@ -131,7 +131,7 @@ const Services = () => {
                                 </div>
                                 <div>
                                     <h4 className="font-bold text-charcoal mb-1">The Workflow Distillation</h4>
-                                    <p className="text-sm text-charcoal/70">Using AI and analytics to map, optimize, and automate complex internal business processes, reducing manual overhead.</p>
+                                    <p className="text-sm text-charcoal/70">Using AI and analytics to map, optimise, and automate complex internal business processes, reducing manual overhead.</p>
                                 </div>
                             </div>
 
