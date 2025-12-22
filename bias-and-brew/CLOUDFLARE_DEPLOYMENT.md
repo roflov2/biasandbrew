@@ -28,8 +28,11 @@ Use the following settings when prompted:
 | **Framework preset** | Vite |
 | **Build command** | `npm run build` |
 | **Build output directory** | `dist` |
-| **Root directory** | `bias-and-brew` (if not at repo root) |
+| **Root directory** | `bias-and-brew` |
 | **Node version** | 18 or later |
+
+> [!IMPORTANT]
+> **Root directory** must be set to `bias-and-brew` because your website code is in a subdirectory of the repository. Without this setting, Cloudflare will look for files in the wrong location and the deployment will fail.
 
 ### 3. Environment Variables (Optional)
 
