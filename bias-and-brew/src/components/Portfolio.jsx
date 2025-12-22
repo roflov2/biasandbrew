@@ -41,17 +41,17 @@ const Portfolio = () => {
                         {/* Preview Content */}
                         <div className="p-8 space-y-6">
                             <p className="text-slate-300 leading-relaxed">
-                                A powerful, interactive bipartite graph visualization tool for exploring relationships between people, organizations, and documents. Features include:
+                                A high-performance network intelligence tool designed to visualize and analyze complex relationships in large-scale datasets. Built with WebGL for smooth rendering of thousands of nodes.
                             </p>
 
                             <ul className="grid md:grid-cols-2 gap-4 text-sm">
                                 {[
-                                    "Force-directed physics layout",
-                                    "Multi-hop path analysis",
-                                    "Real-time node search",
-                                    "Entity type filtering",
-                                    "AI-powered network analysis",
-                                    "Data export capabilities"
+                                    "High-performance WebGL Rendering",
+                                    "Louvain Community Detection",
+                                    "Shortest Path Analysis",
+                                    "Temporal Data Timeline",
+                                    "Entity & Community Filtering",
+                                    "Interactive Focus Mode"
                                 ].map((feature, i) => (
                                     <li key={i} className="flex items-center gap-2 text-slate-400">
                                         <span className="w-1.5 h-1.5 bg-tangerine rounded-full"></span>
@@ -62,7 +62,7 @@ const Portfolio = () => {
 
                             {/* Tech badges */}
                             <div className="flex flex-wrap gap-2 pt-2">
-                                {["React", "Cytoscape.js", "FastAPI", "NetworkX"].map((tech) => (
+                                {["React", "Sigma.js", "Graphology", "FastAPI", "NetworkX"].map((tech) => (
                                     <span
                                         key={tech}
                                         className="px-3 py-1 bg-slate-700/50 text-slate-300 text-xs font-medium rounded-full border border-slate-600/50"
