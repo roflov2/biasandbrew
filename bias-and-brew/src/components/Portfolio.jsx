@@ -75,7 +75,7 @@ const Portfolio = () => {
                             {/* CTA Button */}
                             <div className="pt-4">
                                 <a
-                                    href="https://biasandbrew.dev/"
+                                    href="https://roflov2.github.io/network_app/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="inline-flex items-center gap-2 px-6 py-3 bg-sapphire text-white rounded-lg font-semibold hover:bg-blue-700 transition-all duration-300 shadow-lg shadow-sapphire/20 hover:shadow-xl hover:scale-105 group"
