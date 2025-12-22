@@ -1,6 +1,6 @@
-# Bias and Brew Website
+# Konstantin Pokaluhin - Personal Portfolio
 
-A professional, single-page React website for Bias and Brew, a data analytics and AI consultancy specializing in ethical AI solutions for government.
+Personal consultancy website for **Konstantin Pokaluhin** — Ethical AI solutions for government. Originally built as the corporate site for Bias and Brew, now adapted to focus on personal expertise and services.
 
 ## Features
 - **Modern Tech Stack**: React, Vite, Tailwind CSS, Framer Motion.
