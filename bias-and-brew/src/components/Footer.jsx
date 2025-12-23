@@ -24,8 +24,6 @@ const Footer = () => {
                     <p>© {new Date().getFullYear()} Bias and Brew. All rights reserved.</p>
 
                     <div className="flex items-center gap-6 mt-4 md:mt-0">
-                        <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-                        <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
                         <a href="https://www.linkedin.com/in/konstantin-pokaluhin/" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors">
                             <Linkedin size={20} />
                         </a>
