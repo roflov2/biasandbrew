@@ -4,7 +4,7 @@ const WhyMe = () => {
     const reasons = [
         {
             title: "Public Sector Focus",
-            description: "I understand the unique challenges of public sector AI: transparency requirements, diverse stakeholder needs, and the imperative to serve all citizens fairly."
+            description: "I understand the unique challenges of public sector AI: transparency requirements, diverse stakeholder needs, and the imperative to serve all public stakeholders fairly."
         },
         {
             title: "Speed Meets Rigor",
@@ -29,7 +29,7 @@ const WhyMe = () => {
                         <h2 className="text-3xl md:text-4xl font-bold mb-6">Why Work With Me</h2>
                         <div className="w-16 h-1 bg-ruby mb-8 rounded-full"></div>
                         <p className="text-lg text-slate-300 mb-8 leading-relaxed">
-                            I bring a specialized focus to government AI challenges, combining ethical rigor with technical agility to deliver systems that are safe, fair, and effective.
+                            I bring a specialised focus to government AI challenges, combining ethical rigour with technical agility to deliver systems that are safe, fair, and effective.
                         </p>
                         <div className="p-6 bg-white/5 rounded-xl border border-white/10 backdrop-blur-sm">
                             <p className="text-slate-300 italic">

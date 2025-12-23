@@ -100,7 +100,7 @@ const Contact = () => {
                                 </div>
 
                                 <div>
-                                    <label htmlFor="agency" className="block text-sm font-medium text-charcoal mb-2">Agency / Department</label>
+                                    <label htmlFor="agency" className="block text-sm font-medium text-charcoal mb-2">Government Department</label>
                                     <input
                                         type="text"
                                         id="agency"

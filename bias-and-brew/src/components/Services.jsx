@@ -69,7 +69,7 @@ const Services = () => {
                                 </div>
                                 <div>
                                     <h4 className="font-bold text-charcoal mb-1">Core Metric Alignment</h4>
-                                    <p className="text-sm text-charcoal/70">Establishing the correct KPIs and metrics to measure model success against agency goals and public service outcomes.</p>
+                                    <p className="text-sm text-charcoal/70">Establishing the correct KPIs and metrics to measure model success against department goals and public service outcomes.</p>
                                 </div>
                             </div>
 
@@ -101,7 +101,7 @@ const Services = () => {
                                 </div>
                                 <div>
                                     <h4 className="font-bold text-charcoal mb-1">The Automation Recipe</h4>
-                                    <p className="text-sm text-charcoal/70">Strategy and design for specific, goal-oriented AI agents tailored to your agency's needs (e.g., citizen inquiry triage, document processing).</p>
+                                    <p className="text-sm text-charcoal/70">Strategy and design for specific, goal-oriented AI agents tailored to your department's needs (e.g., public stakeholder inquiry triage, document processing).</p>
                                 </div>
                             </div>
 
@@ -121,7 +121,7 @@ const Services = () => {
                                 </div>
                                 <div>
                                     <h4 className="font-bold text-charcoal mb-1">Agent Deployment & Scaling</h4>
-                                    <p className="text-sm text-charcoal/70">Engineering the secure and scalable integration of autonomous agents into core agency systems, with full security and audit compliance.</p>
+                                    <p className="text-sm text-charcoal/70">Engineering the secure and scalable integration of autonomous agents into core department systems, with full security and audit compliance.</p>
                                 </div>
                             </div>
 

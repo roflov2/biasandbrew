@@ -6,7 +6,7 @@ const ValueProposition = () => {
         {
             icon: <ShieldCheck size={32} className="text-sapphire" />,
             title: "Bias-Free Intelligence",
-            description: "Rigorous auditing ensures your AI systems serve all citizens fairly and ethically, meeting strict standards for equity."
+            description: "Rigorous auditing ensures your AI systems serve all public stakeholders fairly and ethically, meeting strict standards for equity."
         },
         {
             icon: <Zap size={32} className="text-tangerine" />,
