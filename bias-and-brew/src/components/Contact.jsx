@@ -65,10 +65,7 @@ const Contact = () => {
                         </p>
 
                         <div className="space-y-6">
-                            <div className="bg-slate-50 p-6 rounded-xl border border-slate-100">
-                                <h4 className="font-bold text-charcoal mb-2">Email Me</h4>
-                                <a href="mailto:kosta@biasandbrew.dev" className="text-sapphire hover:underline text-lg">kosta@biasandbrew.dev</a>
-                            </div>
+
                             <div className="bg-slate-50 p-6 rounded-xl border border-slate-100">
                                 <h4 className="font-bold text-charcoal mb-2">Connect on LinkedIn</h4>
                                 <a href="https://www.linkedin.com/in/konstantin-pokaluhin/" target="_blank" rel="noopener noreferrer" className="text-sapphire hover:underline">View Profile &rarr;</a>
