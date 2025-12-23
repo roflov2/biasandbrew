@@ -59,7 +59,7 @@ const Hero = () => {
                         transition={{ duration: 0.6, delay: 0.2 }}
                         className="text-xl text-charcoal/80 mb-10 max-w-2xl mx-auto leading-relaxed"
                     >
-                        I help government agencies build trustworthy AI systems through rigorous bias auditing and intelligent automation. From data integrity to autonomous agents, I deliver solutions that serve the public interest.
+                        I help government departments build trustworthy AI systems through rigorous bias auditing and intelligent automation. From data integrity to autonomous agents, I deliver solutions that serve the public interest.
                     </motion.p>
 
                     <motion.div

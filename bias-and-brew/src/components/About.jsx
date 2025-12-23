@@ -12,7 +12,7 @@ const About = () => {
                             I started Bias and Brew on a simple principle: <span className="font-semibold text-sapphire">AI in government must be both powerful and trustworthy.</span> As a specialist in rapid prototyping of AI-powered analytics, I focus on ensuring fairness, transparency, and accountability in every system I build.
                         </p>
                         <p className="text-lg text-charcoal/80 mb-6 leading-relaxed">
-                            My expertise spans the full lifecycle—from auditing existing systems for bias to building cutting-edge agentic workflows that automate complex processes. I work exclusively with government agencies, bringing deep understanding of public sector requirements, security standards, and the unique responsibility of serving all public stakeholders.
+                            My expertise spans the full lifecycle—from auditing existing systems for bias to building cutting-edge agentic workflows that automate complex processes. I work exclusively with government departments, bringing deep understanding of public sector requirements, security standards, and the unique responsibility of serving all public stakeholders.
                         </p>
                         <p className="text-lg text-charcoal/80 leading-relaxed font-medium italic text-sapphire">
                             "Every project begins with the question: 'Is this the right thing to build?' and ends with systems that you can explain, defend, and trust."
